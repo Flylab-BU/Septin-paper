@@ -3,4 +3,4 @@ This repository compiles the scripts used in the paper "Septin Complexes Regulat
 
 For behavioral analysis: [check here](https://github.com/incisrdg/ddG_biases/blob/main/subset_generation.ipynb)
 
-For MD analysis:  [check followings](https://github.com/incisrdg/ddG_biases/blob/main/subset_generation.ipynb)
+For MD analysis:  [check these](https://github.com/incisrdg/ddG_biases/blob/main/subset_generation.ipynb)

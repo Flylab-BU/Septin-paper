@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread("C:/Users/Casperr/PycharmProjects/tahaProje/pic2.png", cv2.IMREAD_COLOR)
+img = cv2.imread("/path/to/output/figure", cv2.IMREAD_COLOR)
 
 # This function takes img as an input and determines the coordinates of every pixel and gives coordinates.
 def img_coordinator():
@@ -23,12 +23,9 @@ def img_coordinator():
             location.append(row_counter)
             location.append(column_counter)
 
-
-
             B = column[0]
             G = column[1]
             R  = column[2]
-
 
             if B >= 250 and G <= 50 and R <= 50:
 
@@ -102,7 +99,6 @@ def min_max_dist_calculator():
 
 def image_drawer():
     # Drawing borders of the specified muscle
-
     cv2.line(img, [borders[0][1],borders[0][0]], [borders[1][1],borders[1][0]], (255,0,255), 2)
     cv2.line(img, [borders[1][1], borders[1][0]], [borders[2][1], borders[2][0]], (0,255,255), 2)
     cv2.line(img, [borders[2][1], borders[2][0]], [borders[3][1], borders[3][0]], (255,255,255), 2)
@@ -137,9 +133,6 @@ def image_drawer():
             cv2.line(img, [dict[distance][0][1],dict[distance][0][0]],[dict[distance][1][1],dict[distance][1][0]], (0, 0, 255), 2)
 
 
-
-
-
 def nucleiToBorderDists():
     distList = []
 
@@ -170,7 +163,6 @@ def nucleiToBorderDists():
             distList.append(distance)
 
             cv2.line(img,[nucleusx,nucleusy],[intersectionY,intersectionX],(0,200,200),2)
-
 
 
 def image_texter():

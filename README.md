@@ -3,4 +3,4 @@ This repository compiles the scripts used in the paper "Septin Complexes Regulat
 
 For behavioral analysis: [check here](https://github.com/Flylab-BU/Septin-paper/blob/main/behavior_scripts.py)
 
-For MD analysis:  [check these](https://github.com/incisrdg/ddG_biases/blob/main/subset_generation.ipynb)
+For MD analysis:  [check these]([https://github.com/incisrdg/ddG_biases/blob/main/subset_generation.ipynb](https://github.com/Flylab-BU/Septin-paper/blob/main/pairwise_rmsd.ipynb, https://github.com/Flylab-BU/Septin-paper/blob/main/pairwise_rmsd.ipynb)

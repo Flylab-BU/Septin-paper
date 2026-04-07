@@ -3,6 +3,5 @@ This repository compiles the scripts used in the preprint titled [Septin Complex
 
 
 
-For behavioral analysis: [check here](https://github.com/Flylab-BU/Septin-paper/blob/main/behavior_scripts.py)
 
 
